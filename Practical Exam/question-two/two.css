@@ -1,0 +1,82 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 40%;
+    height: 850px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: auto;
+}
+.container
+{
+    width: 80%;
+    height: 800px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+h1
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.profile
+{
+    width: 100%;
+    height:700px;
+    margin-top: 50px;
+}
+.profile .image
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+.profile .image img
+{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.name
+{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: brown;
+}
+.intro
+{
+    text-align: justify;
+    padding: 10px 30px;
+}
+.contact
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: brown;
+    display: inline;
+}
+.email
+{
+    margin-top: 20px;
+    color: brown;
+    display: inline;
+    margin-left: 20px;
+}
+a
+{
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    margin-left:45%;
+    position: relative;
+    top: 30px;
+}

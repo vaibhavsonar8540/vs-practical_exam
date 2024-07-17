@@ -1,0 +1,53 @@
+.main
+{
+    width: 100%;
+    height: 150px;
+}
+.container
+{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-ul
+{
+    display: flex;
+    position: relative;
+}
+.main-ul li
+{
+    padding: 0px 20px;
+    list-style: none;
+}
+.main-ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.sub-ul
+{
+    display: none;
+}
+
+.sub-ul li
+{
+    padding: 5px 0px;
+}
+
+.sub-ul li a
+{
+    color: white;
+}
+
+.main-ul:hover .sub-ul
+{
+    display: block;
+    position: absolute;
+    top: 100px;
+
+}
